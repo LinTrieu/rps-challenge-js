@@ -10,5 +10,10 @@ describe('Game', function(){
     expect(game).toEqual(jasmine.any(Game));
   });
 
+  it('user can have a weapon', function(){
+    expect(game.weapon).toBeDefined();
+  });
+
+  
 
 });
