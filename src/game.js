@@ -13,7 +13,7 @@ Game.prototype.play = function(userMove,computerMove) {
     } else if(this.WIN_CONDITIONS[userMove] === computerMove) {
       return "You win!";
     } else {
-      return "Computer wins.";
+      return "You lose!";
     }; 
 };
 

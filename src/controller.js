@@ -5,13 +5,14 @@ $(document).ready(function(){
    var user = $('#userChoice').val();
    var random = game.computerMove();
    var result = game.play(user,random);
-   console.log(user)
-   console.log(random)
-   console.log(result)
-   $('#user-position').text(`You played: ${user}`)
-   $('#computer-position').text(`Computer played: ${game.computerMove()}`)
-   $('#game-result').text(`Result: ${result}`)
+   $('#user-position').text(`You played: ${user}`);
+   $('#computer-position').text(`Computer played: ${random}`);
+   $('#game-result').text(result)
+   console.log(user);
+   console.log(random);
+   console.log(result);
   });
+  
 
   // $('#userSubmit').submit(function(event) {
   //   event.preventDefault();
