@@ -14,7 +14,7 @@
 
 	<body>
       <div class="jumbotron">
-          <div class="container">
+          <div class="container-fluid">
             <h1>Welcome to Rock, Paper, Scissors!</h1>
             <a>Let's play.</a>
             <br>
@@ -26,21 +26,24 @@
 
                         <section class="text-center">
                           <form>
-                            <select id="userChoice" class="custom-select-lg mb-3">
-                              <option selected>Your move</option>
+                            <select id="userChoice" class="custom-select-lg">
+                              <option selected disabled>Your move</option>
                               <option value='Rock'>Rock</option>
                               <option value='Paper'>Paper</option>
                               <option value='Scissors'>Scissors</option>
                             </select>
                             <br>
                             <br>
-                            <button id="userSubmit" class="btn btn-lg btn-primary btn-block text-uppercase" input type="submit">Submit your move</button>
+                            <button id="userSubmit" class="btn btn-lg btn-primary btn-block text-uppercase" input type="submit">Submit</button>
                           </form>  
                         </section>
                         <br>                     
-                        <br>                     
-                        <h5 id='user-position'></h5>
-                        <h5 id='computer-position'></h5>
+                        <br>
+
+                        <div class="row">                     
+                          <div class="col"><h4 id='user-position'></h4></div>
+                          <div class="col"><h4 id='computer-position'></h4></div>
+                        </div>
                         <h2 id='game-result'></h2>
                       </div>
                       </div>

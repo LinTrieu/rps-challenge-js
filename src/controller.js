@@ -15,8 +15,5 @@ $(document).ready(function(){
   });
   
   
-  $(window).load(function() {
-    alert( "Welcome! Let's play Rock, Paper, Scissors" );
-  });
 
 });
