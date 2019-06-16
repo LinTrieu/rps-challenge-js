@@ -1,9 +1,5 @@
 $(document).ready(function(){
   var game = new Game();
-
-  // $('#userChoice').change(function() {
-  // });
-  
   
   $('#userSubmit').click(function(event) {
     var user = $('#userChoice').val();
@@ -16,13 +12,11 @@ $(document).ready(function(){
     console.log(user);
     console.log(random);
     console.log(result);
-    
   });
-
-  // $('#userChoice').submit(function(event) {
-  //  event.preventDefaul();
-  //  var userWeapon = $('#userChoice').val();
-  //  game.play(userWeapon);
-  // });
+  
+  
+  $(window).load(function() {
+    alert( "Welcome! Let's play Rock, Paper, Scissors" );
+  });
 
 });
