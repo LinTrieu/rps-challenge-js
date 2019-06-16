@@ -19,9 +19,9 @@ Link to challenge instructions: https://github.com/makersacademy/rps-challenge
 
 ### Description
 
-The RPS (Rock, Paper, Scissors) challenge is a 'Friday Challenge' set by Makers Academy to try and test your ability to 'can you learn a new language and its patterns?'.
+The RPS (Rock, Paper, Scissors) challenge is a 'Friday Challenge' set by Makers Academy to test our ability to 'can you learn a new language and its patterns?'.
 
-The application allows the user to play a game of Rock, Paper, Scissors against the Computer. The user must select their weapon, either Rock, Paper or Scissors via. the drop down form, and the application will return the computer's weapon and determine the winner of the game according to the RPS rules.
+The application allows the user to play a game of Rock, Paper, Scissors against the Computer. The user selects their weapon, either Rock, Paper or Scissors via. the drop down form, the application will return the computer's weapon and determine the winner of the game.
 
 ```
 - Rock beats Scissors
