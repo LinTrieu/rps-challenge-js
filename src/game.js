@@ -1,20 +1,20 @@
 function Game(){
   this.WIN_CONDITIONS = {
-    'rock': 'scissors',
-    'paper': 'rock',
-    'scissors': 'paper'
+    "Rock": "Scissors",
+    "Paper": "Rock",
+    "Scissors": "Paper",
     };
   this.options = ["Rock","Paper","Scissors"]
 };
 
 Game.prototype.play = function(userMove,computerMove) {
   if(userMove === computerMove) {
-    return "DRAW";
+    return "It's a draw!";
     } else if(this.WIN_CONDITIONS[userMove] === computerMove) {
-      return "WIN"
+      return "You win!";
     } else {
-      return "LOSE";
-    };
+      return "Computer wins.";
+    }; 
 };
 
 Game.prototype.computerMove = function(){
